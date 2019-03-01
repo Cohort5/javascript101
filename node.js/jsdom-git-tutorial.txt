@@ -1,0 +1,93 @@
+///CHECKOUT -B VERSION 6.0  STEPS # 1-7
+
+plc5:~/workspace/javascript101/jsdomv2 (master) $ git checkout -b version6.0
+M       history.txt
+Switched to a new branch 'version6.0'
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ curl -LO https://github.com/iamshaunjp/JavaScript-DOM-Tutorial/archive/lesson-6.zip
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   141    0   141    0     0    719      0 --:--:-- --:--:-- --:--:--   723
+  0     0    0  2764    0     0   6761      0 --:--:-- --:--:-- --:--:--  6761
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ unzip -j lesson-6.zip
+Archive:  lesson-6.zip
+c77915944622906c1961fdf727751e7c56f301b2
+replace .DS_Store? [y]es, [n]o, [A]ll, [N]one, [r]ename: A
+  inflating: .DS_Store               
+  inflating: README.md               
+  inflating: app.js                  
+  inflating: index.html              
+  inflating: styles.css              
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ ls
+README.md  app.js  history.txt  index.html  lesson-6.zip  styles.css
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ rm lesson-6.zip 
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ ls
+README.md  app.js  history.txt  index.html  styles.css
+plc5:~/workspace/javascript101/jsdomv2 (version6.0) $ 
+
+
+
+
+///VERSION 5.O - STEPS # 1-5
+
+plc5:~/workspace/javascript101/jsdomv2 (version5.0) $ git add -A
+plc5:~/workspace/javascript101/jsdomv2 (version5.0) $ git commit -m "changes"
+[version5.0 63959d1] changes
+ 1 file changed, 5 deletions(-)
+plc5:~/workspace/javascript101/jsdomv2 (version5.0) $ git checkout master
+Switched to branch 'master'
+plc5:~/workspace/javascript101/jsdomv2 (master) $ git merge version5.0
+Updating ed8ce20..63959d1
+Fast-forward
+ app.js      | 30 ++++++++++++++++++++++++------
+ history.txt | 26 ++++++++++++++++++--------
+ 2 files changed, 42 insertions(+), 14 deletions(-)
+plc5:~/workspace/javascript101/jsdomv2 (master) $ git push
+fatal: No configured push destination.
+Either specify the URL from the command-line or configure a remote repository using
+
+    git remote add <name> <url>
+
+and then push using the remote name
+
+    git push <name>
+
+plc5:~/workspace/javascript101/jsdomv2 (master) $ 
+
+git add, git commit, git push
+
+
+
+plc5:~/workspace/javascript101/jsdomv2 (master) $ git remote show origin
+
+///need to start jsdomv3 from begining by downloading master from git hub
+
+
+////HOLIDAY HW: https://github.com/iamshaunjp?tab=repositories
+
+(master) git init: stackoverflow.com
+to look up branches (versions) git branch -a 
+
+watch and code, git tutortial videos from net ninja: https://www.youtube.com/watch?v=fQLK8Ib_SKk
+
+Node, express, mongo from first two HW assignments are foundational.
+
+Jqwery tutortial - optional
+
+hoteljsv5, incorporate add jsdom features and styles into new file
+
+nodejs.org - link to javascript resources as a tool - for terms of art.
+var, const, let 
+
+front-end - mozilla, webmnd, w3schools  javascript popular
+back-end - nodejs.org, makes it back-end and written in c++
+nodejs playlist/repo in git hub from net ninja - already installed in c9, atom.io
+
+v8 writtin in c++, https://github.com/v8/v8
+
+
+c++ operates closer (Operating Sytem) executed by the kernel 
+c++ is a low level language that doesnt get interpeted, 
+javascript is a hight level language that get interpeted
+
+ES5 - Ecma Script, ecma-international.org, ecma standard document
+

@@ -1,0 +1,25 @@
+// Node.js Candy Mountain - Streams + Buffers vs13
+Buffers
+    Temporary storage spot for a chunk of data that is being transferred from one place to another
+    The buffer is filled with data, then passed along
+Transfer small chunks of data at a time
+
+DATA, BUFFER, Data passed on
+BUFFER, collects small chuncks of data until full
+STREAMS, data passed and processed to the client
+Allows data to be transferred and used in small chunks, instead of being stored in memory.
+
+STREAMS in node.js
+    Can creat streams in Node.js to transfer data
+Increaces performance of your application
+
+
+
+
+    
+
+
+
+
+
+

@@ -1,0 +1,114 @@
+Enviornment, language, basic task or system
+
+    DBMongo on C9, Port, errors
+npm - node package manager
+apt-get - advanced package transfer, application get
+bash - born again shell
+
+    c9 mongodb install, no sequal data base, no scheme, storage device and easily find it, data can be lost
+Sequal, excell expresss, data can be stored, persistant
+
+    HARDWARE TYPES
+CASCHE - on CPU, level one (fastest), two (slower), maybe three (slowest) fatherst from your center processing unit = CPU
+RAM - physical, random access memory, and then pass through, and goes to cpu
+HARD DRIVE - solid or normal state, farthest
+
+    Inference, logic, etc..c9 mongodb install
+
+    Enviornment, language, basic task or system
+
+    Want to install mongodb on cloud9 local server
+https://stackoverflow.com/questions/41712122/want-to-install-mongodb-on-cloud9-local-server
+
+    ERRORS, 
+Mongodb requires two gigs, 
+We do not have access to read, rewrite Mongodb data base files
+
+REACT NATIVE - mobile application network, native code
+A or R, NODE, EXPRESS, MONGOD, SEQUEL, 
+
+    Setting Up MongoDB
+https://community.c9.io/t/setting-up-mongodb/1717
+
+MongoDB parameters used: for each project, and create a short cut file to run Mongodb
+> mongod, starts a file
+"mongod
+--bind_ip=$IP,  ip address
+--dbpath=data,  stores data
+--nojournal,  
+--rest, 
+"$@"
+
+$ chmod a+x mongod, change mode, a = access execute the command
+
+Create a new project in Mongodb
+git ignore file./ data base folders in Mongodb
+
+Computer scientist, test, hypothesis, analyze what was wrong, pivot, always learning code
+
+Enviornment, language, basic task or system
+C9
+MAC
+WINDOWS
+
+CREATING AND API, AND HOW WE ACCEPT - OPENNEWS.API, HOW CONSUMPTION WORKS ON THURSDAY WITH CLIFF
+API CREATING AND CONSUMPTION FOR SECURITY PURPOSES
+
+ALGORITHMS
+
+BIG DATA IS THE NEW OIL, ETC.
+
+SCRAPERS, FOR PERSONAL INFORMATION, BIG DATA COMPANIES, TO MAKE BETTER DECISIONS
+
+FEED BACK FROM USER BASE, USE DEVELOPING TIME WISELY, COMPANIES MAKE BETTER DECISIONS
+
+eMONEY - API COMPANY
+
+MONGODB, .find, collections, files
+
+NODE.JS - MEN
+
+NEW PROJECT, WORK IN TEAMS, CREATE REPO, SHARE WITH TEAM MATE - ARNELL
+
+freecodecamp weather api
+https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/show-the-local-weather/
+
+freecodecamp twitch api
+https://learn.freecodecamp.org/coding-interview-prep/take-home-projects/use-the-twitch-json-api/
+
+MONDAY - REST API VS10 AND THURSDAY
+
+SATURDAY INCORPORAE INTO HOTEL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    
+

@@ -1,0 +1,24 @@
+Client, request, server, response vs11
+
+Protocols - set of commincation rules, that both sides agree to use communicating
+IP ADDRESS, socket, between client and server, ftp - file transfer, http - internet
+TCP - splits up data into packets and sends them thru the socket via TCP
+PORTS - a program running on a computer can listen for request sent to a particular port number, eg. 172.etc-port:3000
+
+Creating-severs vs12
+    Response Headers
+Client, request, server
+    request + request headers
+Servers, response, client
+    response data + response headers
+Response Headers
+    Content-Type - txt, html, http
+    Status - 400, 404
+    
+
+
+
+
+
+
+
